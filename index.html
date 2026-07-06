@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrelinhas — Comunidade Literária IFPR Londrina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shelf-wrap">
+  <div class="shelf-inner">
+    <div class="brand">Entre<span>linhas</span></div>
+    <nav class="shelf" role="tablist" aria-label="Navegação principal">
+      <button class="spine active" data-tab="home" role="tab" aria-selected="true">Home</button>
+      <button class="spine" data-tab="sobre" role="tab" aria-selected="false">Sobre</button>
+      <button class="spine" data-tab="servicos" role="tab" aria-selected="false">Serviços</button>
+      <button class="spine" data-tab="participe" role="tab" aria-selected="false">Participe</button>
+      <button class="spine" data-tab="depoimentos" role="tab" aria-selected="false">Comunidade</button>
+    </nav>
+  </div>
+</div>
+
+<!-- HOME -->
+<section id="home" class="panel active">
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Projeto de Extensão · IFPR Campus Londrina</p>
+      <h1>Entre linhas,<br><em>entre pessoas.</em></h1>
+      <p class="lead">O Entrelinhas é o espaço onde estudantes do IFPR Londrina encontram indicações de leitura, trocam impressões sobre livros nacionais e ajudam a desenhar, com suas respostas, o futuro de uma comunidade leitora dentro do campus.</p>
+      <div class="cta-row">
+        <button class="btn btn-primary" onclick="goTo('participe')">Responder à pesquisa</button>
+        <a class="btn btn-ghost" href="https://www.instagram.com/ifprlondrina?igsh=MWIydzdsY3ZoY3dsZA==" target="_blank" rel="noopener">Seguir no Instagram ↗</a>
+      </div>
+    </div>
+    <div class="spine-art" aria-hidden="true">
+      <div class="book" style="background:#C9A227;">ROMANCE</div>
+      <div class="book" style="background:#8FA396;">FICÇÃO</div>
+      <div class="book" style="background:#B5563C; height:92%;">SUSPENSE</div>
+      <div class="book" style="background:#E0C263; height:88%;">POESIA</div>
+      <div class="book" style="background:#5C6B60;">NACIONAL</div>
+      <div class="book" style="background:#D8CCA5; height:95%;">CONTOS</div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num">61</div><div class="label">estudantes já ouvidos na pesquisa</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">cursos técnicos participantes</div></div>
+    <div class="stat"><div class="num">8</div><div class="label">perguntas sobre hábitos de leitura</div></div>
+    <div class="stat"><div class="num">01</div><div class="label">comunidade em construção</div></div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="panel">
+  <div class="section-head">
+    <p class="eyebrow">Sobre o projeto</p>
+    <h2>Uma escuta que vira comunidade</h2>
+    <p>O Entrelinhas nasceu dentro do projeto de Extensão do IFPR Londrina, a partir de uma pergunta simples: por que tantos estudantes leem pouco — e o que os aproximaria da leitura, principalmente da literatura nacional? A resposta começou a ser construída ouvindo os próprios estudantes.</p>
+  </div>
+
+  <div class="pillars">
+    <div class="pillar">
+      <div class="mark">01</div>
+      <h3>Escuta ativa</h3>
+      <p>Pesquisas contínuas mapeiam hábitos, preferências e barreiras de leitura entre estudantes do campus.</p>
+    </div>
+    <div class="pillar">
+      <div class="mark">02</div>
+      <h3>Comunidade entre leitores</h3>
+      <p>Espaço para indicar, comentar e descobrir livros nacionais a partir da experiência de outros estudantes.</p>
+    </div>
+    <div class="pillar">
+      <div class="mark">03</div>
+      <h3>Acesso à literatura nacional</h3>
+      <p>Aproximação do acervo da biblioteca do campus às indicações e interesses reais da comunidade estudantil.</p>
+    </div>
+  </div>
+
+  <div class="quote-block">
+    <p>"Se houvesse uma comunidade literária no IFPR, isso me incentivaria a ler mais."</p>
+    <span>— resposta recorrente entre os estudantes ouvidos na pesquisa</span>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="panel">
+  <div class="section-head">
+    <p class="eyebrow">Serviços / Produtos</p>
+    <h2>O que o Entrelinhas oferece</h2>
+    <p>A partir dos dados coletados, o projeto estrutura quatro frentes de atuação junto à comunidade do campus.</p>
+  </div>
+
+  <div class="services">
+    <div class="service-card">
+      <div class="idx">01</div>
+      <h3>Pesquisa contínua</h3>
+      <p>Formulários curtos aplicados por turma para acompanhar a evolução dos hábitos de leitura ao longo do ano.</p>
+    </div>
+    <div class="service-card">
+      <div class="idx">02</div>
+      <h3>Indicações por curso</h3>
+      <p>Curadoria de obras nacionais sugeridas por estudantes de TINFEM e BIOTEC, organizadas por gênero e ano.</p>
+    </div>
+    <div class="service-card">
+      <div class="idx">03</div>
+      <h3>Rodas de leitura</h3>
+      <p>Encontros presenciais no campus para discutir livros indicados pela própria comunidade estudantil.</p>
+    </div>
+    <div class="service-card">
+      <div class="idx">04</div>
+      <h3>Parceria com a biblioteca</h3>
+      <p>Destaque, no acervo físico, das obras nacionais mais desejadas segundo os dados da pesquisa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PARTICIPE -->
+<section id="participe" class="panel">
+  <div class="participe-grid">
+    <div class="qr-card">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=260x260&color=18261F&bgcolor=F3EAD8&data=https://forms.gle/stNEmNsnSGmgvugS6" alt="QR Code de acesso ao formulário de pesquisa do Entrelinhas" width="220" height="220">
+      <p class="qr-caption">Aponte a câmera do celular</p>
+      <a class="canva-link" href="https://canva.link/h7t5lvf4rzqpov6" target="_blank" rel="noopener">Ver arte oficial do QR Code ↗</a>
+    </div>
+    <div class="participe-copy">
+      <p class="eyebrow">Página de Engajamento</p>
+      <h2>Sua leitura tem voz aqui</h2>
+      <p>Leva menos de 3 minutos. Suas respostas ajudam a desenhar as próximas ações do Entrelinhas — das indicações de livros às rodas de leitura no campus.</p>
+      <ul class="steps">
+        <li><span class="n">1</span><p>Escaneie o QR Code ao lado ou toque no botão abaixo.</p></li>
+        <li><span class="n">2</span><p>Responda ao formulário sobre seus hábitos de leitura.</p></li>
+        <li><span class="n">3</span><p>Acompanhe as novidades no Instagram do campus.</p></li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://forms.gle/stNEmNsnSGmgvugS6" target="_blank" rel="noopener">Responder ao formulário ↗</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/ifprlondrina?igsh=MWIydzdsY3ZoY3dsZA==" target="_blank" rel="noopener">@ifprlondrina ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos" class="panel">
+  <div class="section-head">
+    <p class="eyebrow">Prova social</p>
+    <h2>O que a comunidade tem dito</h2>
+    <p>Espaço reservado para os depoimentos de estudantes e leitores participantes do projeto.</p>
+  </div>
+  <span class="testi-note">Seção em construção — depoimentos reais serão inseridos após a coleta</span>
+
+  <div class="testimonials">
+    <div class="testi-card">
+      <p class="quote">Nunca tinha pensado em indicar um livro nacional pra ninguém. Agora quero ver o que os outros estão lendo também.</p>
+      <div class="who">Estudante · TINFEM (depoimento ilustrativo)</div>
+    </div>
+    <div class="testi-card">
+      <p class="quote">A pesquisa foi rápida e as perguntas fizeram eu pensar em por que eu tinha parado de ler.</p>
+      <div class="who">Estudante · BIOTEC (depoimento ilustrativo)</div>
+    </div>
+    <div class="testi-card">
+      <p class="quote">Uma roda de leitura no campus seria ótima — enfim algo pra tirar o livro da gaveta.</p>
+      <div class="who">Estudante · IFPR Londrina (depoimento ilustrativo)</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <a class="social-link" href="https://www.instagram.com/ifprlondrina?igsh=MWIydzdsY3ZoY3dsZA==" target="_blank" rel="noopener">
+      Instagram · @ifprlondrina ↗
+    </a>
+    <div class="foot-meta">Entrelinhas — Projeto de Extensão II, IFPR Campus Londrina</div>
+  </div>
+</footer>
+
+<a class="feedback-fab" href="https://forms.gle/eQynqdgZPKQyvCjd9" target="_blank" rel="noopener">💬 Deixe seu feedback</a>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
